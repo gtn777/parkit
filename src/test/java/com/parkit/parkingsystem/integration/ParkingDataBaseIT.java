@@ -58,7 +58,6 @@ public class ParkingDataBaseIT {
         //TODO: check that a ticket is actually saved in DB and Parking table is updated with availability
         Ticket savedTicket = ticketDAO.getTicket("pdbIT");
         
-        AssertThat(savedTicket).
                 
     }
 

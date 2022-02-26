@@ -53,7 +53,7 @@ public class ParkingDataBaseIT {
 	@AfterAll
 	private static void tearDown() {
 	}
-
+	@Disabled
 	@Test
 	public void testParkingACar() {
 		ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
